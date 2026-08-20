@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Avenir Roman';
+  src:
+    local('Avenir Roman'),
+    local('Avenir'),
+    local('Avenir Next Roman'),
+    local('Avenir Next');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src:
+    local('Avenir Roman Medium'),
+    local('Avenir Medium'),
+    local('Avenir Next Medium');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src:
+    local('Avenir Roman Heavy'),
+    local('Avenir Heavy'),
+    local('Avenir Next Demi Bold'),
+    local('Avenir Next DemiBold');
+  font-style: normal;
+  font-weight: 700;
+}
+
+html {
+  font-family: 'Avenir Roman', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-y: auto;
+}

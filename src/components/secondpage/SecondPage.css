@@ -1,0 +1,106 @@
+.secondpage {
+  min-height: 100vh;
+  height: 100svh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  overflow: hidden;
+}
+
+.secondpage__panel {
+  min-height: 0;
+}
+
+.secondpage__panel--top {
+  background-color: #7E8243;
+  display: grid;
+  place-items: center;
+  padding: 3rem 1.5rem;
+}
+
+.secondpage__panel--bottom {
+  background-color: #FFF5E1;
+  padding: 4rem 1.5rem 3rem;
+}
+
+.secondpage__hero {
+  width: min(100%, 30rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.secondpage__letter {
+  width: clamp(3.75rem, 9vw, 5.5rem);
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.secondpage__title {
+  width: min(100%, 26rem);
+  height: auto;
+}
+
+.secondpage__subtitle {
+  margin: 0.75rem 0 0;
+  color: #FFF5E1;
+  font-size: clamp(1.1rem, 1.8vw, 1.5rem);
+  line-height: 1.35;
+}
+
+.secondpage__button {
+  margin-top: 2rem;
+  min-width: 8.75rem;
+}
+
+.secondpage__faq-wrap {
+  width: min(100%, 70rem);
+  margin: 0 auto;
+}
+
+.secondpage__faq-title {
+  width: min(100%, 20rem);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .secondpage {
+    min-height: 100svh;
+    height: 100svh;
+    grid-template-rows: 56fr 44fr;
+  }
+
+  .secondpage__panel--top {
+    padding: 2.5rem 1.25rem 2rem;
+  }
+
+  .secondpage__panel--bottom {
+    padding: 2rem 1.25rem 2.5rem;
+  }
+
+  .secondpage__hero {
+    width: min(100%, 18rem);
+  }
+
+  .secondpage__letter {
+    width: clamp(3rem, 12vw, 4.25rem);
+    margin-bottom: 1rem;
+  }
+
+  .secondpage__title {
+    width: min(100%, 15rem);
+  }
+
+  .secondpage__subtitle {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .secondpage__button {
+    margin-top: 1.25rem;
+  }
+
+  .secondpage__faq-title {
+    width: min(100%, 13rem);
+  }
+}

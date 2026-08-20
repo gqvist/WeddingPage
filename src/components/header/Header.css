@@ -1,0 +1,75 @@
+.header {
+  min-height: 5vh;
+  min-width: 100%;
+  padding: 0.75rem 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: background-color 0.50s ease;
+}
+
+.header--transparent {
+  background-color: transparent;
+}
+
+.header--solid {
+  background-color: #7E8243;
+}
+
+.header__brand {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo {
+  height: 2.75rem;
+  width: auto;
+  display: block;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header__link {
+  color: #FFF5E1;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.header__link:hover {
+  opacity: 0.75;
+}
+
+.header__link:focus-visible {
+  outline: 2px solid #FFF5E1;
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.75rem 1rem;
+  }
+
+  .header__logo {
+    height: 2.25rem;
+  }
+
+  .header__nav {
+    gap: 1rem;
+  }
+
+  .header__link {
+    font-size: 1rem;
+  }
+}
