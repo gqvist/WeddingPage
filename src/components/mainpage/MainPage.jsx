@@ -1,6 +1,6 @@
 import './MainPage.css'
-import mainpageImage from '../../assets/images/mainPageImg.jpg'
-import MarriedText from '../../assets/images/marriedText.svg'
+import mainpageImage from '../../assets/images/MainPageImg.jpg'
+import MarriedText from '../../assets/images/MarriedText.svg'
 import MainButton from '../mainbutton/MainButton.jsx'
 
 function MainPage(props) {
