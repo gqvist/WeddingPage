@@ -14,11 +14,11 @@ function MainPage(props) {
         <div ref={contentRef} className="mainpage__text-container">
           <img src={MarriedText} alt="Married text" className="mainpage__text" />
           <p className="mainpage__text-subtitle">
-            Den 14 augusti 2027 säger vi ja till varandra på Wenngarns slott. 
+            Den 14 augusti 2027 säger vi ja till varandra på Wenngarns slott.
             Vi ser fram emot att fira dagen med er, våra nära och kära. <br /><br />
-            Här finns all information ni behöver inför bröllopet. 
+            Här finns all information ni behöver inför bröllopet.
           </p>
-          <MainButton className="mainpage__button" href="/om" backgroundColor="#7E8243">
+          <MainButton className="mainpage__button" backgroundColor="#7E8243">
             Om bröllopet
           </MainButton>
         </div>

@@ -9,12 +9,12 @@ const Header = forwardRef(function Header({ mode = 'transparent' }, ref) {
         <img className="header__logo" src={logo} alt="A and F logo" />
       </a>
       <nav className="header__nav" aria-label="Primary">
-        <a className="header__link" href="/om">
+        <button className="header__link" type="button">
           Om bröllopet
-        </a>
-        <a className="header__link" href="/svara">
+        </button>
+        <button className="header__link" type="button">
           Svara
-        </a>
+        </button>
       </nav>
     </header>
   )

@@ -10,11 +10,10 @@ function SecondPage() {
       <div className="secondpage__panel secondpage__panel--top">
         <div className="secondpage__hero">
           <img className="secondpage__letter" src={letterImage} alt="Letter illustration" />
-          <img className="secondpage__title" src={invitationText} alt="Svara pa inbjudan" />
+          <img className="secondpage__title" src={invitationText} alt="Svara på inbjudan" />
           <p className="secondpage__subtitle">Vi hoppas att ni vill fira med oss!</p>
           <MainButton
             className="secondpage__button"
-            href="/svara"
             backgroundColor="#FFF5E1"
             style={{ color: '#7E8243' }}
           >
@@ -24,7 +23,7 @@ function SecondPage() {
       </div>
       <div className="secondpage__panel secondpage__panel--bottom">
         <div className="secondpage__faq-wrap">
-          <img className="secondpage__faq-title" src={faqImage} alt="Fragor och svar" />
+          <img className="secondpage__faq-title" src={faqImage} alt="Frågor och svar" />
         </div>
       </div>
     </section>
